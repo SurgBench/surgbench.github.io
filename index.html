@@ -1,78 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Project Title | Research Project</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 40px auto;
-      max-width: 800px;
-      line-height: 1.6;
-      color: #333;
-    }
-    h1, h2, h3 {
-      text-align: center;
-    }
-    .links {
-      text-align: center;
-      margin: 20px 0;
-    }
-    .links a {
-      margin: 0 10px;
-      text-decoration: none;
-      color: #007acc;
-      font-weight: bold;
-    }
-    .video {
-      text-align: center;
-      margin: 30px 0;
-    }
-    .citation {
-      background: #f5f5f5;
-      padding: 10px;
-      border-radius: 6px;
-      font-family: monospace;
-      font-size: 0.9em;
-      overflow-x: auto;
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Project Title — Research Project</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <h1>SurgBench</h1>
-  <h3>Author1, Author2, Author3</h3>
-  <p style="text-align:center;">
-    Institution / Lab Name
-  </p>
+  <header class="site-header">
+    <h1>AAA</h1>
+    <p class="authors">Your Name, Collaborator A, Collaborator B</p>
+    <p class="venue">Conference 20XX (Oral)</p>
 
-  <div class="links">
-    <a href="paper.pdf">[Paper]</a>
-    <a href="https://arxiv.org/abs/...">[arXiv]</a>
-    <a href="https://github.com/yourname/project">[Code]</a>
-    <a href="poster.pdf">[Poster]</a>
-  </div>
+    <div class="links">
+      <a class="btn" href="paper.pdf" target="_blank">Paper (PDF)</a>
+      <a class="btn" href="https://arxiv.org/abs/xxxx.xxxxx" target="_blank">arXiv</a>
+      <a class="btn" href="https://github.com/yourname/project" target="_blank">Code</a>
+      <a class="btn" href="https://youtu.be/VIDEO_ID" target="_blank">Video</a>
+    </div>
+  </header>
 
-  <h2>Abstract</h2>
-  <p>
-    We propose ...
-  </p>
+  <main>
+    <section id="abstract">
+      <h2>Abstract</h2>
+      <p>
+        We propose a ...
+      </p>
+    </section>
 
-  <div class="video">
-    <h2>Demo Video</h2>
-    <!-- YouTube embed example -->
-    <iframe width="560" height="315"
-      src="https://www.youtube.com/embed/VIDEO_ID"
-      frameborder="0"
-      allowfullscreen></iframe>
-  </div>
+    <section id="method">
+      <h2>Method</h2>
+      <p>
+        <!-- 설명과 이미지 삽입 예시 -->
+        <img src="images/figure1.png" alt="Model overview" />
+        Here is a high-level overview of our method...
+      </p>
+    </section>
 
-  <h2>BibTeX</h2>
-  <pre class="citation">
+    <section id="experiments">
+      <h2>Experiments</h2>
+      <p>
+        We evaluate on ...
+      </p>
+    </section>
+
+    <section id="conclusion">
+      <h2>Conclusion</h2>
+      <p>
+        We show that our  ...
+      </p>
+    </section>
+
+    <section id="bibtex">
+      <h2>BibTeX</h2>
+      <pre>
 @inproceedings{
 }
-  </pre>
+      </pre>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 20XX Your Name</p>
+  </footer>
 
 </body>
 </html>
